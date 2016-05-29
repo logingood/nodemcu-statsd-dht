@@ -9,8 +9,8 @@ ssid = "mywifi"
 wifi_password = "12345678password"
 ```
 
-* Setting for your DHT data pint (D4), 
-* room or location name 
+* Setting for your DHT data pint (D4),
+* room or location name
 * statsd port number
 * statsd hostname
 
@@ -36,8 +36,8 @@ Adjust settings in ```init.lua``` and upload these files:
 
 Use [luatool](https://github.com/4refr0nt/luatool) to upload three files on your nodemcu:
 
-e.g. 
-``` 
+e.g.
+```
 luatool.py --port /dev/tty.wchusbserial1450 --src sender.lua --dest sender.lua
 luatool.py --port /dev/tty.wchusbserial1450 --src telnet_srv.lua --dest telnet_srv.lua
 luatool.py --port /dev/tty.wchusbserial1450 --src init.lua --dest init.lua

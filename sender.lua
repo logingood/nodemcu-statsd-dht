@@ -9,7 +9,7 @@ local function tempRead(pin, room)
   if status == 0 then
     return room .. 'temp_iot:' .. temp .. '|g' .. "\n" ..
            room .. 'humi_iot:' .. humi .. '|g' .. "\n"
-  else 
+  else
     return room .. 'temp_iot: 0|g' .. "\n" ..
            room .. 'humi_iot: 0|g' .. "\n"
   end
